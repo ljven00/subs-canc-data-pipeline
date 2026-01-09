@@ -1,0 +1,50 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# =====================
+# Conda
+# =====================
+*.conda
+*.env
+
+# =====================
+# Logs
+# =====================
+*.log
+data/logs/
+
+# =====================
+# OS Files
+# =====================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS (in case collaborators use it)
+.DS_Store
+
+# =====================
+# Data Outputs
+# =====================
+data/processed/
+data/tmp/
+
+# =====================
+# Testing
+# =====================
+.pytest_cache/
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/
