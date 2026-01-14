@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subs-canc-data-pipeline"
+version = "0.1.0"
+description = "Subscription cancellation data pipeline"
+
+[tool.setuptools.packages.find]
+where = ["."]
