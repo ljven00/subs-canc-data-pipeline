@@ -31,6 +31,7 @@ Desktop.ini
 
 # macOS (in case collaborators use it)
 .DS_Store
+Thumbs.db
 
 # =====================
 # Data Outputs
@@ -48,3 +49,10 @@ data/tmp/
 # =====================
 .vscode/
 .idea/
+
+# =====================
+# Packaging
+# =====================
+*.egg-info/
+dist/
+build/
